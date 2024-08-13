@@ -13,7 +13,7 @@ require_once "./Helper/Input.php";
 function viewShowTodoList() 
 {
   while (true) {
-    echo "Your todo list" . PHP_EOL;
+    echo "== TODO LIST ==" . PHP_EOL;
     showTodoList();
 
     echo "MENU" . PHP_EOL;

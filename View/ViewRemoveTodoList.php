@@ -8,7 +8,7 @@ require_once "./BusinessLogic/RemoveTodoList.php";
  * Menampilkan view remove todo list
  */
 function viewRemoveTodoList() {
-  echo "Menhapus Todo" . PHP_EOL;
+  echo "== MENHAPUS TODO ==" . PHP_EOL;
 
   $selectedNumber = input("Nomor todo yang akan dihapus (x untuk batal): ");
 

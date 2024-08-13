@@ -8,7 +8,7 @@ require_once "./Helper/Input.php";
  * Menampilkan view add todo list
  */
 function viewAddTodoList() {
-  echo "Menambahkan Todo" . PHP_EOL;
+  echo "== MENAMBAH TODO ==" . PHP_EOL;
 
   $todo = input("Masukkan todo (x untuk batal): ");
   
